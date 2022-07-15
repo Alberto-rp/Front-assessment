@@ -1,0 +1,141 @@
+/* Common */
+body{
+    box-sizing: border-box;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E3949;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a{
+    color:  #0094FF;
+}
+
+/* Header */
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header img{
+    width: 150px;
+    height: 50px;
+}
+
+/* Main Section */
+section{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+section > p{
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* Cards */
+.card{
+    width: 380px;
+    background-color: white;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba(34, 43, 55, 0.1);
+    margin: 0.5rem;
+}
+
+.icons{
+    background-color: #E1E1E2;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+}
+
+.icons div{
+    padding-top: 0.5rem;
+}
+
+td{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.icons td{
+    width: 2rem;
+}
+
+td.label{
+    text-align: left;
+    vertical-align: top;
+    padding-left: 1rem;
+    color: rgba(46, 57, 73, 0.5);
+    width: 5rem;
+}
+
+td.data{
+    text-align: left;
+}
+
+
+.icons i{
+    color: rgba(34, 43, 55, 0.25);
+}
+
+#output{
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 0.5rem;
+}
+
+/* Footer */
+footer{
+    height: 118px;
+    padding-top: 2rem;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+footer img{
+    width: 5rem;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #2E3949;
+}
+
+
+/* Media Query */
+@media screen and (max-width:800px) { 
+    #output{
+        flex-direction: column;
+    }
+
+    .card{
+        width: auto;
+        margin-top: 1rem;
+    }
+} 
